@@ -18,11 +18,11 @@ public class move3 : MonoBehaviour
 
         if (Input.GetKey("right"))
         {
-            transform.Translate(0.1f, 0, 0);
+            transform.Translate(0.3f, 0, 0);
         }
         if (Input.GetKey("left"))
         {
-            transform.Translate(-0.1f, 0, 0);
+            transform.Translate(-0.3f, 0, 0);
         }
     }
 }
