@@ -11,6 +11,7 @@ public class door : MonoBehaviour
         if (other.gameObject.tag == "Player") {
             SceneManager.LoadScene(goToTheScene);
         }
+      
     }
     // Start is called before the first frame update
     void Start()

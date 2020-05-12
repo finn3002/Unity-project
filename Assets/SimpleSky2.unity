@@ -4833,8 +4833,8 @@ Transform:
   - {fileID: 988141133}
   - {fileID: 491447215}
   - {fileID: 442372498}
-  - {fileID: 24546396}
   - {fileID: 188244063}
+  - {fileID: 24546396}
   - {fileID: 162848027}
   - {fileID: 1744506714}
   m_Father: {fileID: 486566460}
@@ -9240,6 +9240,7 @@ GameObject:
   - component: {fileID: 449355008}
   - component: {fileID: 449355011}
   - component: {fileID: 449355012}
+  - component: {fileID: 449355013}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -9399,6 +9400,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449355007}
   m_Enabled: 1
+--- !u!114 &449355013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449355007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e54279182cebd4da69ddde9369c4e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goToTheScene: dead
 --- !u!1001 &453246090
 PrefabInstance:
   m_ObjectHideFlags: 0
