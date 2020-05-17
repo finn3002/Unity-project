@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class move3 : MonoBehaviour
 {
-    public const int speed = 600;
+    public const int speed = 480;
     // Start is called before the first frame update
     void Start()
     {

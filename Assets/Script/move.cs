@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class move : MonoBehaviour
 {
-    public const int speed = 200;
+    public const int speed = 300;
     // Start is called before the first frame update
     void Start()
     {
